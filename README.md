@@ -14,7 +14,7 @@ Output is piped into the binary via stdin.
 ### Example
 
 ```
-❯ cargo run -- foo <<- EOM
+❯ echo-output foo <<- EOM
 {                 
   "hello": "world"
 }
